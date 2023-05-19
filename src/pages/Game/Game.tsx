@@ -37,7 +37,7 @@ const Game: React.FC<{user: string}> = ({user}) => {
     }
 
     useEffect(() => {
-        console.log(cells)
+        // console.log(cells)
         checkScore()
     }, [cells])
     return ( 
